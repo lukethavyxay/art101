@@ -19,3 +19,6 @@ function main() {
 
 // let's get this party started
 main();
+
+var apples=5;
+console.log(apples);
