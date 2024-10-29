@@ -1,21 +1,18 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/**
+ * Lab 7 Functions - Task 2
+ * Author: Luke Thavyxay
+ * Date: 28 October 2024
+ * 
+ * My website
+**/
+//Create a new function in your file, call it what you like, but choose wisely.
 
-// Constants
+// make a window prompt to get the input
+let person = prompt("Please enter your name", "Harry Potter");
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function userName(strs){
+        //use user input and split, sort, and lasty join 
+  return strs.split('').sort().join('');
 }
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+//next this allows me to print it 
+document.writeln(userName(person));
