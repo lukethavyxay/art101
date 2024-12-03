@@ -1,0 +1,8 @@
+/* Container for the image */
+.comic-container {
+  width: 600px;         /* Fixed width for consistency */
+  height: 400px;        /* Fixed height for consistency */
+  overflow: hidden;     /* Prevents overflow if the image is larger than the container */
+  margin: 0 auto;       /* Centers the container horizontally */
+  position: relative;   /* For positioning the image inside the container */
+}
